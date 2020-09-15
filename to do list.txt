@@ -1,0 +1,13 @@
+1. Check winner function
+2. 1 algortimo cada uno (bfs, dfs, backtracking)
+3. 2 paredes cada vez que pones una pared (punto inicial y punto final a la
+funcion place wall)
+4. Informe:
+    Introduccion
+    Estado del arte
+    Metodologia
+
+    Experimentos
+    Resultados
+    Conclusiones
+    Presentacion
