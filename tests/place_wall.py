@@ -6,12 +6,12 @@ class Player:
         self.color = color
         self.walls = []
     
-    def move_from_path(self):
-        print("Im moving from a path!")
+    def move_from_path(self, s):
+        print("Im moving from a path!", s)
 
-    def think_greedy(self):
+    def think_greedy(self, s):
         print("Im thinking...")
-        self.move_from_path()
+        self.move_from_path(s)
 
 initState = [[0, 8, 'royalblue'], [16,8,'limegreen'], 
                  [8, 0, 'gold'],     [8, 16, 'deeppink']]
@@ -29,6 +29,6 @@ for i in range(nop):
 def place_wall_ai():
     for p in players:
         print(p.id, p.x, p.y, p.color)
-        p.think_greedy()
+        p.think_greedy("hello")
 
 place_wall_ai()
